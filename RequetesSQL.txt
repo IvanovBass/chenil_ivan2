@@ -1,0 +1,5 @@
+INSERT INTO animal (nom, sexe, type, sterilise, date_naissance, id_proprietaire)
+VALUES ('Mirtille', 'F', "Cochon d'inde", 0, '2019/03/11', 2);
+
+INSERT INTO proprietaire (nom, prenom, date_naissance, email, telephone)
+VALUES ('Dujardin', 'Jean-Marc', '1972/09/23', 'jean-marche@yahoo.fr', 06234276257);

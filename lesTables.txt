@@ -1,0 +1,32 @@
+Séjour:
+
+ID Sejour  (PK)
+ID Animal    (FK)
+Date
+
+
+Animal:
+
+Numéro ID (puce)   (PK)
+Nom
+Sexe
+Stérilisé True / False
+Date Naiss.
+ID   proprietaire   (FK)
+
+
+Proprétaire:
+
+ID  (PK)
+Nom
+Prenom
+Date Naiss.
+E-mail
+Tel
+
+
+Virtual Host car sinon le client pourrait taper toutes les URL qu'il veut afin de manipuler les données.
+Partie publique / Partie privée où l'URL va être falsifiée?
+
+
+créer un div content sur ta vue principale, ton index, avec un require et là tu mets la vue qui t'intéresse, cette vue tirera partie du routage et de l'ajax ...
